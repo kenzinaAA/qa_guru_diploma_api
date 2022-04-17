@@ -12,7 +12,6 @@ def allureVersion = "2.17.2",
     restAssured = "4.5.1",
     selenideVersion = "6.3.5",
     junitVersion = "5.8.2",
-    ownerVersion = "1.0.12",
     slf4jVersion = "1.7.32",
     aspectjVersion = "1.9.9",
     assertjVersion = "3.22.0",
@@ -42,7 +41,6 @@ dependencies {
             "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion",
             "org.assertj:assertj-core:$assertjVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
-            "org.aeonbits.owner:owner:$ownerVersion",
             "org.aspectj:aspectjweaver:$aspectjVersion"
     )
     testRuntimeOnly(
