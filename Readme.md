@@ -2,19 +2,20 @@
 
 ## Технологии, используемые в данном проекте
 
-* [<img alt="Java" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Java.svg" width="70"/>](https://www.java.com/) [<img alt="IDEA" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Intelij_IDEA.svg" width="70"/>](https://www.jetbrains.com/idea/) [<img alt="Github" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Github.svg" width="70"/>](https://github.com/) [<img alt="JUnit 5" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/JUnit5.svg" width="70"/>](https://junit.org/junit5/) [<img alt="Gradle" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Gradle.svg" width="70"/>](https://gradle.org/) [<img alt="Rest-assured" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Rest-Assured.svg" width="70"/>](https://rest-assured.io/) [<img alt="Allure" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Allure_Report.svg" width="70"/>](https://github.com/allure-framework/allure2) [<img alt="Jenkins" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Jenkins.svg" width="70"/>](https://www.jenkins.io/)
-  ##Тест кейсы
-  ✓ Поиск информации о пользователе
+[<img alt="Java" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Java.svg" width="70"/>](https://www.java.com/) [<img alt="IDEA" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Intelij_IDEA.svg" width="70"/>](https://www.jetbrains.com/idea/) [<img alt="Github" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Github.svg" width="70"/>](https://github.com/) [<img alt="JUnit 5" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/JUnit5.svg" width="70"/>](https://junit.org/junit5/) [<img alt="Gradle" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Gradle.svg" width="70"/>](https://gradle.org/) [<img alt="Rest-assured" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Rest-Assured.svg" width="70"/>](https://rest-assured.io/) [<img alt="Allure" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Allure_Report.svg" width="70"/>](https://github.com/allure-framework/allure2) [<img alt="Jenkins" height="70" src="https://github.com/berezkindv42/berezkindv_diploma_rest_api_tests_project/raw/main/images/logos/Jenkins.svg" width="70"/>](https://www.jenkins.io/)
 
-  ✓ Проверка списка пользователей
+##Тест кейсы
+✓ Поиск информации о пользователе
 
-  ✓ Проверка списка ресурсов
+✓ Проверка списка пользователей
 
-  ✓ Проверка создания пользователя
+✓ Проверка списка ресурсов
 
-  ✓ Проверка успешной регистрации
+✓ Проверка создания пользователя
 
-  ✓ Проверка безуспешной регистрации
+✓ Проверка успешной регистрации
 
-  ✓ Проверка успешной авторизации
-  ✓ Проверка безуспешной авторизации
+✓ Проверка безуспешной регистрации
+
+✓ Проверка успешной авторизации
+✓ Проверка безуспешной авторизации
