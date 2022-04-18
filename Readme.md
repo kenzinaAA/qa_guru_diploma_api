@@ -43,7 +43,12 @@
 ## Интеграция с [AllureTestOps](https://allure.autotests.cloud/project/1249/test-cases?treeId=0)
 
 ###Тест-кейсы с историей запусков
-![]()
+
+![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureTestCases.png)
+
+###Дашборд
+
+![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureDashboards.png)
 
 ## Уведомление в Telegram
 
