@@ -25,3 +25,7 @@
 ## [Сборка в Jenkins](https://jenkins.autotests.cloud/job/C10-Svetlana_Vas_diplom_api/)
 
 ![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/Jenkins_API.png)
+
+## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/C10-Svetlana_Vas_diplom_api/6/allure/)
+
+### Главное окно
