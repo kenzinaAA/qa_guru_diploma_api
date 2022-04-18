@@ -38,3 +38,10 @@
 
 ### Окно с графиками
 
+![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureGraphs.png)
+
+## Уведомление в Telegram
+
+После завершения тестов отчет о прохождении приходит в Telegram с помощью заранее созданного бота
+
+![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/TelegrammAPI.png)
