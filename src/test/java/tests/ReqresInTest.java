@@ -39,7 +39,7 @@ public class ReqresInTest extends TestBase{
     }
 
     @Test
-    @DisplayName("Поиск пользователя в списке пользователей")
+    @DisplayName("Получение списка пользователей")
     void listUserTest(){
                 Response response =
                         given()
