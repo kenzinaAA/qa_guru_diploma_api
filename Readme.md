@@ -20,3 +20,6 @@
 
 ✓ Проверка успешной авторизации
 ✓ Проверка безуспешной авторизации
+
+## [Сборка в Jenkins](https://jenkins.autotests.cloud/job/C10-Svetlana_Vas_diplom_api/)
+
