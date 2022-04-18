@@ -29,3 +29,12 @@
 ## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/C10-Svetlana_Vas_diplom_api/6/allure/)
 
 ### Главное окно
+
+![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureReport1.png)
+
+### Окно с тестовыми кейсами
+
+![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureReport2.png)
+
+### Окно с графиками
+
