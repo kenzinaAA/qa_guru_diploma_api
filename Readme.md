@@ -1,5 +1,21 @@
 # Дипломный проект по API тестированию для [reqres.in](https://reqres.in/)
 
+## Содержание:
+Технологии и инструменты
+
+Что проверяем
+
+Запуск тестов из Jenkins
+
+Запуск тестов из терминала
+Отчеты
+
+
+Allure
+
+Telegram
+Allure TestOps
+
 ## Технологии, используемые в данном проекте
 
 [<img alt="Java" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Java.svg" width="70"/>](https://www.java.com/) 
@@ -10,7 +26,7 @@
 [<img alt="Rest-assured" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/rest-assured-logo.svg" width="70"/>](https://rest-assured.io/) 
 [<img alt="Allure" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Allure.svg" width="70"/>](https://github.com/allure-framework/allure2) 
 [<img alt="Jenkins" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Jenkins.svg" width="70"/>](https://www.jenkins.io/)
-![]()
+[<img alt="Allure_EE" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Allure_EE.svg" width="70"/>](https://qameta.io/)
 
 ## Тест кейсы
 
