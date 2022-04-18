@@ -40,8 +40,14 @@
 
 ![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureGraphs.png)
 
+## Интеграция с [AllureTestOps](https://allure.autotests.cloud/project/1249/test-cases?treeId=0)
+
+###Тест-кейсы с историей запусков
+![]()
+
 ## Уведомление в Telegram
 
 После завершения тестов отчет о прохождении приходит в Telegram с помощью заранее созданного бота
 
 ![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/TelegrammAPI.png)
+

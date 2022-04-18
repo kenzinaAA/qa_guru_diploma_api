@@ -137,7 +137,7 @@ public class ReqresInTest extends TestBase{
     }
 
     @Test
-    @DisplayName("Безуспешная регитсрация")
+    @DisplayName("Безуспешная регистрация")
     void registerUnsuccessfulTest(){
         User user = new User();
         user.setEmail("sydney@fife");
