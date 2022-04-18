@@ -2,7 +2,15 @@
 
 ## Технологии, используемые в данном проекте
 
-[<img alt="Java" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Java.svg" width="70"/>](https://www.java.com/) [<img alt="IDEA" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Idea.svg" width="70"/>](https://www.jetbrains.com/idea/) [<img alt="Github" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/GitHub.svg" width="70"/>](https://github.com/) [<img alt="JUnit 5" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Junit5.svg" width="70"/>](https://junit.org/junit5/) [<img alt="Gradle" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Gradle.svg" width="70"/>](https://gradle.org/) [<img alt="Rest-assured" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/rest-assured-logo.svg" width="70"/>](https://rest-assured.io/) [<img alt="Allure" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Allure.svg" width="70"/>](https://github.com/allure-framework/allure2) [<img alt="Jenkins" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Jenkins.svg" width="70"/>](https://www.jenkins.io/)
+[<img alt="Java" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Java.svg" width="70"/>](https://www.java.com/) 
+[<img alt="IDEA" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Idea.svg" width="70"/>](https://www.jetbrains.com/idea/) 
+[<img alt="Github" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/GitHub.svg" width="70"/>](https://github.com/) 
+[<img alt="JUnit 5" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Junit5.svg" width="70"/>](https://junit.org/junit5/) 
+[<img alt="Gradle" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Gradle.svg" width="70"/>](https://gradle.org/)
+[<img alt="Rest-assured" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/rest-assured-logo.svg" width="70"/>](https://rest-assured.io/) 
+[<img alt="Allure" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Allure.svg" width="70"/>](https://github.com/allure-framework/allure2) 
+[<img alt="Jenkins" height="70" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/logo/Jenkins.svg" width="70"/>](https://www.jenkins.io/)
+![]()
 
 ## Тест кейсы
 
