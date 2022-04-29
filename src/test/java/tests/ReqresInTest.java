@@ -2,7 +2,7 @@ package tests;
 
 import io.restassured.response.Response;
 import models.User;
-import models.lombok.LombokModel;
+import models.lombok.DataModel;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -16,8 +16,8 @@ public class ReqresInTest extends TestBase{
 
     @Test
     @DisplayName("Поиск информации о пользователе")
-    void singleUserTest(){
-        LombokModel response =
+    void singleUserTest() {
+        DataModel response =
                 given()
                         .spec(request)
                         .when()
@@ -25,24 +25,24 @@ public class ReqresInTest extends TestBase{
                         .then()
                         .spec(response200)
                         .log().body()
-                        .extract().as(LombokModel.class);
+                        .extract().as(DataModel.class);
 
         Integer id = 2;
         String email = "janet.weaver@reqres.in";
         String firstName = "Janet";
         String lastName = "Weaver";
 
-        assertEquals(id,response.getUser().getId());
-        assertEquals(email,response.getUser().getEmail());
-        assertEquals(firstName,response.getUser().getFirstName());
-        assertEquals(lastName,response.getUser().getLastName());
+        assertEquals(id, response.getUser().getId());
+        assertEquals(email, response.getUser().getEmail());
+        assertEquals(firstName, response.getUser().getFirstName());
+        assertEquals(lastName, response.getUser().getLastName());
     }
 
     @Test
     @DisplayName("Получение списка пользователей")
-    void listUserTest(){
-                Response response =
-                        given()
+    void listUserTest() {
+        Response response =
+                given()
                         .spec(request)
                         .when()
                         .get("/users?page=2")
@@ -56,15 +56,15 @@ public class ReqresInTest extends TestBase{
         String firstName = "Rachel";
         String lastName = "Howell";
 
-        assertEquals(id,response.path("data[5].id"));
-        assertEquals(email,response.path("data[5].email"));
-        assertEquals(firstName,response.path("data[5].first_name"));
-        assertEquals(lastName,response.path("data[5].last_name"));
+        assertEquals(id, response.path("data[5].id"));
+        assertEquals(email, response.path("data[5].email"));
+        assertEquals(firstName, response.path("data[5].first_name"));
+        assertEquals(lastName, response.path("data[5].last_name"));
     }
 
     @Test
     @DisplayName("Вывод списка ресурсов")
-    void listResourseTest(){
+    void listResourseTest() {
         Response response =
                 given()
                         .spec(request)
@@ -81,16 +81,16 @@ public class ReqresInTest extends TestBase{
         String color = "#98B2D1";
         String pantoneValue = "15-4020";
 
-        assertEquals(id,response.path("data[0].id"));
-        assertEquals(name,response.path("data[0].name"));
-        assertEquals(year,response.path("data[0].year"));
-        assertEquals(color,response.path("data[0].color"));
-        assertEquals(pantoneValue,response.path("data[0].pantone_value"));
+        assertEquals(id, response.path("data[0].id"));
+        assertEquals(name, response.path("data[0].name"));
+        assertEquals(year, response.path("data[0].year"));
+        assertEquals(color, response.path("data[0].color"));
+        assertEquals(pantoneValue, response.path("data[0].pantone_value"));
     }
 
     @Test
     @DisplayName("Создание пользователя")
-    void createUserTest(){
+    void createUserTest() {
         User user = new User();
         user.setName("morpheus");
         user.setJob("leader");
@@ -106,14 +106,14 @@ public class ReqresInTest extends TestBase{
                         .log().body()
                         .extract().as(User.class);
 
-        assertNotEquals(responseUser.getId(),null);
-        assertEquals(user.getName(),responseUser.getName());
-        assertEquals(user.getJob(),responseUser.getJob());
+        assertNotEquals(responseUser.getId(), null);
+        assertEquals(user.getName(), responseUser.getName());
+        assertEquals(user.getJob(), responseUser.getJob());
     }
 
     @Test
     @DisplayName("Успешная регистрация")
-    void registerSuccessfulTest(){
+    void registerSuccessfulTest() {
         User user = new User();
         user.setEmail("eve.holt@reqres.in");
         user.setPassword("pistol");
@@ -132,13 +132,13 @@ public class ReqresInTest extends TestBase{
         Integer id = 4;
         String token = "QpwL5tke4Pnpja7X4";
 
-        assertEquals(id,responseUser.getId());
-        assertEquals(token,responseUser.getToken());
+        assertEquals(id, responseUser.getId());
+        assertEquals(token, responseUser.getToken());
     }
 
     @Test
     @DisplayName("Безуспешная регистрация")
-    void registerUnsuccessfulTest(){
+    void registerUnsuccessfulTest() {
         User user = new User();
         user.setEmail("sydney@fife");
 
@@ -154,12 +154,12 @@ public class ReqresInTest extends TestBase{
                         .extract().response();
 
         String message = "Missing password";
-        assertEquals(message,response.path("error"));
+        assertEquals(message, response.path("error"));
     }
 
     @Test
     @DisplayName("Успешная авторизация")
-    void loginSuccessfulTest(){
+    void loginSuccessfulTest() {
         User user = new User();
         user.setEmail("eve.holt@reqres.in");
         user.setPassword("cityslicka");
@@ -176,12 +176,12 @@ public class ReqresInTest extends TestBase{
                         .extract().as(User.class);
 
         String token = "QpwL5tke4Pnpja7X4";
-        assertEquals(token,responseUser.getToken());
+        assertEquals(token, responseUser.getToken());
     }
 
     @Test
     @DisplayName("Безуспешная авторизация")
-    void loginUnsuccessfulTest(){
+    void loginUnsuccessfulTest() {
         User user = new User();
         user.setEmail("peter@klaven");
 
@@ -197,6 +197,6 @@ public class ReqresInTest extends TestBase{
                         .extract().response();
 
         String message = "Missing password";
-        assertEquals(message,response.path("error"));
+        assertEquals(message, response.path("error"));
     }
 }

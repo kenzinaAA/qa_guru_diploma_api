@@ -8,7 +8,7 @@ import models.User;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class LombokModel {
+public class DataModel {
     @JsonProperty("data")
     private User user;
     private Resourse resourse;
