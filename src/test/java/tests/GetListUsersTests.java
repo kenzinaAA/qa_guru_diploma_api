@@ -1,0 +1,35 @@
+package tests;
+
+import models.lombok.UsersListLombokModel;
+import org.junit.jupiter.api.Test;
+
+import static io.qameta.allure.Allure.step;
+import static io.restassured.RestAssured.given;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static specs.RequestSpec.requestSpec;
+import static specs.ResponseSpec.responseSpec;
+
+public class GetListUsersTests extends TestBase {
+    @Test
+    void getListUsersTest() {
+
+        UsersListLombokModel response = step("Check response", () ->
+
+        given(requestSpec)
+                .when()
+                    .queryParam("page", "7")
+                    .get("/users")
+                .then()
+                .spec(responseSpec(200))
+                .extract()
+                .as(UsersListLombokModel.class));
+
+        step("Check response", () -> {
+            assertEquals(7, response.getPage());
+            assertEquals(6, response.getPerPage());
+            assertEquals(12, response.getTotal());
+            assertEquals(2, response.getTotalPages());
+            assertEquals(0, response.getUsers().size());
+        });
+    }
+}
