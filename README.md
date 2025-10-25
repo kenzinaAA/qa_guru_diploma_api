@@ -31,15 +31,15 @@
 <a id="технологии-и-инструменты"></a>
 ## 🛠 Технологии и инструменты, используемые в данном проекте
 
-[<img alt="Java" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Allure.svg" width="70"/>](https://www.java.com/)
-[<img alt="IDEA" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Allure_EE.svg" width="70"/>](https://www.jetbrains.com/idea/)
+[<img alt="Java" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Java.svg" width="70"/>](https://www.java.com/)
+[<img alt="IDEA" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Idea.svg" width="70"/>](https://www.jetbrains.com/idea/)
 [<img alt="Github" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/GitHub.svg" width="70"/>](https://github.com/)
-[<img alt="JUnit 5" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Gradle.svg" width="70"/>](https://junit.org/junit5/)
-[<img alt="Gradle" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Idea.svg" width="70"/>](https://gradle.org/)
-[<img alt="Rest-assured" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Java.svg" width="70"/>](https://rest-assured.io/)
-[<img alt="Allure" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Jenkins.svg" width="70"/>](https://github.com/allure-framework/allure2)
-[<img alt="Jenkins" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Junit5.svg" width="70"/>](https://www.jenkins.io/)
-[<img alt="Allure_EE" height="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/rest-assured-logo.svg" width="70"/>](https://qameta.io/)
+[<img alt="JUnit 5" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Junit5.svg" width="70"/>](https://junit.org/junit5/)
+[<img alt="Gradle" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Gradle.svg" width="70"/>](https://gradle.org/)
+[<img alt="Rest-assured" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/rest-assured-logo.svg" width="70"/>](https://rest-assured.io/)
+[<img alt="Allure" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Allure.svg" width="70"/>](https://github.com/allure-framework/allure2)
+[<img alt="Jenkins" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Jenkins.svg" width="70"/>](https://www.jenkins.io/)
+[<img alt="Allure_EE" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Allure_EE.svg" width="70"/>](https://qameta.io/)
 [<img alt="Allure_EE" height="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Telegram.svg" width="70"/>](https://qameta.io/)
 ---
 
