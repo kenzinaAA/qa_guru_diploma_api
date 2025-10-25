@@ -25,7 +25,6 @@
 - [Интеграция с TestOps](#-интеграция-с-testops)
 - [Интеграция с Jira](#-интеграция-с-jira)
 - [Телеграмм-бот с уведомлениями о результатах тестов](#-телеграмм-бот-с-уведомлениями-о-результатах-тестов)
-- [Пример записи видео при выполнении тестов в Selenoid](#-пример-записи-видео-при-выполнении-тестов-в-selenoid)
 
 ---
 <a id="технологии-и-инструменты"></a>
@@ -85,43 +84,40 @@ src/test/java/
 ✅ Валидация структуры ответов
 
 ---
-## [Сборка в Jenkins](добавить ссылку)
-картинка
+## [Сборка в Jenkins](https://jenkins.autotests.cloud/job/kenzinaAA-%20qa_guru_diploma_api/)
 
-## Информация о тестах в [Allure report](ссылка)
+![](https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/Jenkins.png)
 
-### Главное окно
-
-![](картинка)
+## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/kenzinaAA-%20qa_guru_diploma_api/allure/)
 
 ### Окно с тестовыми кейсами
 
-![](картинка)
+![](https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/AllureTestCases.png)
 
 ### Окно с графиками
 
-![](картинка)
+![](https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/AllureGraphs.png)
 
-## Интеграция с [AllureTestOps](ссылка)
+## Интеграция с [AllureTestOps](https://allure.autotests.cloud/project/4976/)
 
-###Тест-кейсы с историей запусков
+### Тест-кейсы
 
-![](картинка)
+![](https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/TestOppsTestCases.png)
 
-###Дашборд
+### Тест-кейсы с историей запусков
 
-![](картинка)
+![](https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/TestOppsLaunches.png)
 
-## Интеграция с [Jira](ссылка)
+### Дашборд
 
-![](картинка)
+![](https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/TestOppsDashboard.png)
+
+## Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1520)
+
+![](https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/Jira.png)
 
 ## Телеграмм-бот с уведомлениями о результатах тестов
 
 После завершения тестов отчет о прохождении приходит в Telegram с помощью заранее созданного бота
 
-![](картинка)
-
-## Пример записи видео при выполнении тестов в Selenoid
-
-![](видео)
+![](https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/Telegram.jpg)
