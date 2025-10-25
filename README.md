@@ -39,7 +39,7 @@
 [<img alt="Rest-assured" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Java.svg" width="70"/>](https://rest-assured.io/)
 [<img alt="Allure" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Jenkins.svg" width="70"/>](https://github.com/allure-framework/allure2)
 [<img alt="Jenkins" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Junit5.svg" width="70"/>](https://www.jenkins.io/)
-[<img alt="Allure_EE" height="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/RestAssured.svg" width="70"/>](https://qameta.io/)
+[<img alt="Allure_EE" height="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/rest-assured-logo.svg" width="70"/>](https://qameta.io/)
 [<img alt="Allure_EE" height="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Telegram.svg" width="70"/>](https://qameta.io/)
 ---
 
