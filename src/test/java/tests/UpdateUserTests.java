@@ -14,6 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static specs.RequestSpec.*;
 import static specs.ResponseSpec.responseSpec;
 
+@DisplayName("Тесты на изменение существующих данных")
 public class UpdateUserTests extends TestBase{
 
     @DisplayName("Обновление данных пользователя")

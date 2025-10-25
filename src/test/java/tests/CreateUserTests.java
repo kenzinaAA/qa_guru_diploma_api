@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static specs.RequestSpec.*;
 import static specs.ResponseSpec.responseSpec;
 
+@DisplayName("Тесты на создание сущностей")
 public class CreateUserTests extends TestBase {
 
     Integer keyMinLength = 17;

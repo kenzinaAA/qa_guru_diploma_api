@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static specs.RequestSpec.requestSpec;
 import static specs.ResponseSpec.responseSpec;
 
+@DisplayName("Тесты на получение единичных данных")
 public class FetchesUserTests extends TestBase {
 
     String

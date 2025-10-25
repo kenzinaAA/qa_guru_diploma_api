@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static specs.RequestSpec.requestSpec;
 import static specs.ResponseSpec.responseSpec;
 
+@DisplayName("Тесты на получение множественных данных")
 public class GetListUsersTests extends TestBase {
 
     @DisplayName("Получение списка пользователей")

@@ -8,6 +8,7 @@ import static io.restassured.RestAssured.given;
 import static specs.RequestSpec.requestSpec;
 import static specs.ResponseSpec.responseSpec;
 
+@DisplayName("Тесты на удаление существующих данных")
 public class DeleteUserTests extends TestBase {
 
     @DisplayName("Удаление пользователя")
