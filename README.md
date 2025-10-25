@@ -36,7 +36,7 @@
 [<img alt="Github" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/GitHub.svg" width="70"/>](https://github.com/)
 [<img alt="JUnit 5" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Junit5.svg" width="70"/>](https://junit.org/junit5/)
 [<img alt="Gradle" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Gradle.svg" width="70"/>](https://gradle.org/)
-[<img alt="Rest-assured" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/rest-assured-logo.svg" width="70"/>](https://rest-assured.io/)
+[<img alt="Rest-assured" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/RestAssured.svg" width="70"/>](https://rest-assured.io/)
 [<img alt="Allure" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Allure.svg" width="70"/>](https://github.com/allure-framework/allure2)
 [<img alt="Jenkins" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Jenkins.svg" width="70"/>](https://www.jenkins.io/)
 [<img alt="Allure_EE" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Allure_EE.svg" width="70"/>](https://qameta.io/)
