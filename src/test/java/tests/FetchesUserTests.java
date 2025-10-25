@@ -1,6 +1,7 @@
 package tests;
 
 import models.lombok.UsersResponseLombokModel;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
@@ -16,9 +17,10 @@ public class FetchesUserTests extends TestBase {
             supportUrl = "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
             supportText = "Tired of writing endless social media content? Let Content Caddy generate it for you.";
 
+    @DisplayName("Получение данных о пользователе")
     @Test
     void successfulFetchesUserTest() {
-        UsersResponseLombokModel response = step("Male request", () ->
+        UsersResponseLombokModel response = step("Make request", () ->
                 given(requestSpec)
                         .get("/users/2")
                         .then()

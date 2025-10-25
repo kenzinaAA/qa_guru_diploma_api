@@ -1,6 +1,7 @@
 package tests;
 
 import models.lombok.UsersListLombokModel;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
@@ -10,6 +11,8 @@ import static specs.RequestSpec.requestSpec;
 import static specs.ResponseSpec.responseSpec;
 
 public class GetListUsersTests extends TestBase {
+
+    @DisplayName("Получение списка пользователей")
     @Test
     void getListUsersTest() {
 

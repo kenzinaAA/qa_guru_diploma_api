@@ -1,6 +1,7 @@
 package tests;
 
 import models.lombok.*;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
@@ -16,6 +17,7 @@ public class CreateUserTests extends TestBase {
 
     Integer keyMinLength = 17;
 
+    @DisplayName("Успешное создание пользователя")
     @Test
     void successfulCreateUserTest() {
         CreateBodyLombokModel regData = new CreateBodyLombokModel();
@@ -40,6 +42,8 @@ public class CreateUserTests extends TestBase {
             assertTrue (response.getToken().matches("^[A-Za-z0-9]+$"));
         });
     }
+
+    @DisplayName("Неудавшееся создание пользователя")
     @Test
     void unsuccessfulCreateUserTest() {
         LoginBodyLombokModel userData = new LoginBodyLombokModel();

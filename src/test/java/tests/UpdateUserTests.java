@@ -1,6 +1,7 @@
 package tests;
 
 import models.lombok.UpdateUserLombokModel;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.time.Instant;
@@ -15,6 +16,7 @@ import static specs.ResponseSpec.responseSpec;
 
 public class UpdateUserTests extends TestBase{
 
+    @DisplayName("Обновление данных пользователя")
     @Test
     void updateUserTest() {
         UpdateUserLombokModel updateUser = new UpdateUserLombokModel();

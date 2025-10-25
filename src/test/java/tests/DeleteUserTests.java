@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
@@ -9,6 +10,7 @@ import static specs.ResponseSpec.responseSpec;
 
 public class DeleteUserTests extends TestBase {
 
+    @DisplayName("Удаление пользователя")
     @Test
     void deleteUserTest () {
         step("Request", ()->
