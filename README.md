@@ -40,7 +40,7 @@
 [<img alt="Allure" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Allure.svg" width="70"/>](https://github.com/allure-framework/allure2)
 [<img alt="Jenkins" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Jenkins.svg" width="70"/>](https://www.jenkins.io/)
 [<img alt="Allure_EE" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Allure_EE.svg" width="70"/>](https://qameta.io/)
-[<img alt="Allure_EE" height="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Telegram.svg" width="70"/>](https://qameta.io/)
+[<img alt="Telegram" height="70" src="https://github.com/kenzinaAA/qa_guru_diploma_api/blob/main/images/logo/Telegram.svg" width="70"/>](https://qameta.io/)
 ---
 
 <a id="архитектура-тестов"></a>
